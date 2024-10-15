@@ -45,11 +45,7 @@ To prevent invalid inputs (e.g., entering an end time earlier than the start tim
 - Ensuring that the events do not overlap, especially when input values are borderline (e.g., one event ends exactly when another begins).
 - Managing and resetting the form inputs after each successful submission to maintain a smooth user experience.
 
-### 8. Possible Enhancements
-- **Persisting data**: Storing events in a database to make the scheduler stateful across sessions.
-- **Improving the UI**: Adding a more sophisticated timeline view for visualizing events.
-- **Event Editing**: Allowing users to modify or delete existing events.
-- **Notifications**: Implementing reminders or notifications for upcoming events.
+
 
 ## Project Structure
 - **`scheduler.component.ts`**: Handles the core logic for event validation and management.
